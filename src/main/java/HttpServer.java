@@ -60,8 +60,10 @@ public class HttpServer {
             while(true) {
                 String s = br.readLine();
                 if(s == null || s.trim().length() == 0) {
+                    System.out.println("blya!!! " + s +" !!!!!!");
                     break;
                 }
+                System.out.println(s);
             }
         }
     }
