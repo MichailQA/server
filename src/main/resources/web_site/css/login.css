@@ -1,0 +1,102 @@
+.page {
+	color: #CEE3F6;
+	background-color: #1C1C1C;
+	height: 100%;
+	width: 100%;
+	border: 1px solid #207AE1;
+}
+
+html{
+    min-height:100%;
+    position:relative;
+}
+body{
+    height:100%;
+    margin: 0px;
+}
+
+.login_bloc {
+	font: 18px Tahoma, "Times New Roman", Arial;
+	padding-top: 15px;
+    margin: auto;
+    margin-top: 300px; 
+    background-color: #303942;
+    width: 350px;
+    height: 170px;
+    border: 1px solid #207AE1;
+    text-align: center;
+    position: relative
+}
+
+#login {
+	margin-right: 55px;
+	padding-top: 5px;
+	float: right;
+} 
+
+#pass {
+	margin-right: 55px; 
+	padding-top: 5px;
+	float: right;
+	margin-bottom: 25px;
+}
+
+input {
+	background-color: #434C56;
+	border: 1px solid #207AE1;
+	height: 30px;
+	margin-top: 2px;
+	padding-left: 5px;
+}
+
+#logBtn {
+	background-color: #434C56;
+	border: 1px solid #207AE1;
+    height: 35px;
+    margin-left: 174px;
+    width: 174px;
+    float: right;
+    position: absolute; 
+    bottom: 0;
+    padding-top: 10px; 
+}
+
+#cancBtn {
+	background-color: #434C56;
+	border: 1px solid #207AE1;
+    height: 35px;
+    width: 174px;
+    position: absolute; 
+    bottom: 0;
+    padding-top: 10px; 
+}
+
+.txt {
+	margin-top: 5px;
+}
+
+#cancBtn: hover {
+    background-color: #207AE1;
+}
+
+.registration_bloc {
+	font: 18px Tahoma, "Times New Roman", Arial;
+	padding-top: 15px;
+    margin: auto;
+    margin-top: 300px; 
+    background-color: #303942;
+    width: 350px;
+    height: 24%;
+    border: 1px solid #207AE1;
+    text-align: center;
+    position: relative
+}
+
+.inp {
+	margin-right: 55px;
+	float: right;
+}
+
+#rg_txt {
+	margin-bottom: 10px;
+}
